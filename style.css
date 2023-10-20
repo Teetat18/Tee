@@ -1,9 +1,13 @@
-#Webtitle {
+.Webtitle {
     font-size: 50px;
     color: blueviolet;
 }
-.inform {
+#inform {
     color: brown;
+    font-size: 15px;
+}
+#name {
+    font-size: 30px;
 }
 #first {
     display: inline-block;
@@ -11,11 +15,20 @@
     padding: 10px;
 }
 span {
-    font-size: 20px;
+    font-size: 18px;
 }
 .container {
+    background-color: aqua;
     display: inline-block;
     width: auto;
     border: 20px black solid;
     padding: auto;
+}
+#owl {
+    width: 200px;
+    height: 200px;
+    margin: 10px 100px;
+}
+#git {
+    font-size: 20px;
 }
