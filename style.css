@@ -15,7 +15,7 @@ span {
 }
 .container {
     display: inline-block;
-    width: 600px;
+    width: auto;
     border: 20px black solid;
-    padding: 50px 20px;
+    padding: auto;
 }
