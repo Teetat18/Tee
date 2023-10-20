@@ -21,7 +21,7 @@ span {
     background-color: aqua;
     display: inline-block;
     width: auto;
-    border: 20px black solid;
+    border: 5px blue solid;
     padding: auto;
 }
 #owl {
@@ -31,4 +31,7 @@ span {
 }
 #git {
     font-size: 20px;
+}
+#click {
+    font-size: 15px;
 }
