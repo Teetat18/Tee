@@ -1,37 +1,95 @@
-.Webtitle {
-    font-size: 50px;
-    color: blueviolet;
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.wallpapersafari.com/97/50/eRwDMy.jpg);
 }
-#inform {
-    color: brown;
-    font-size: 15px;
+
+.grid_container {
+    display: grid ;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 150px 100px auto auto;
+    padding: 10px;
+    width: 1fr;
+    height: 1fr;
+    gap: 10px;
+}
+
+.header {
+    background-color: #F7E987;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    font-size: 30px;
+    box-shadow: 5px 5px #252B48;
+}
+#heading {
+    color: #252B48;
+    text-shadow: 3px 3px #5B9A8B;
+}
+
+.picture {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+img {
+    width: 275px;
+    height: 300px;
+    border:  5px solid #445069;
+    padding: 0;
+}
+
+.namebox {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    font-size: 30px;
+    background-color: #5B9A8B;
 }
 #name {
-    font-size: 30px;
+    text-shadow: #445069 10px;
 }
-#first {
-    display: inline-block;
-    border: 20px blue solid;
-    padding: 10px;
+
+.inform {
+    border: solid #445069;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #F7E987;
 }
-span {
-    font-size: 18px;
+
+.point {
+    font-size: 20px;
+    padding: 10px ;
+    border: 0px;
+    color: #F7E987;
+    margin-top: 0px;
+    background-color: #445069;
+    text-align-last: center;
+    text-shadow: #252B48 3px 3px;
 }
-.container {
-    background-color: aqua;
-    display: inline-block;
-    width: auto;
-    border: 5px blue solid;
-    padding: auto;
+#informtext {
+    margin: 5px;
+    color: #445069;
 }
-#owl {
-    width: 200px;
-    height: 200px;
-    margin: 10px 100px;
+
+.link {
+    border: solid #445069;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: #F7E987;
 }
-#git {
+.alink {
+    margin: 5px;
+    color: #445069;
+    line-height: 200%;
+    margin-left: 20px;
+}
+.end {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    color: #fff;
+    background-color: #252B48;
+}
+#Thank {
     font-size: 20px;
 }
-#click {
+.endding {
     font-size: 15px;
 }
